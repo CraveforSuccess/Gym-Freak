@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Gym Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <%- include('navbar.ejs') %>
+
+        <!-- Header -->
+        <header class="bg-light py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h1 class="display-4">Welcome to Gym Name</h1>
+                        <p class="lead">Get Fit, Stay Healthy, Build Muscle</p>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=300&q=80"
+                            class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Services Section -->
+        <section class="py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card shadow">
+                            <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                                class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Personal Training</h5>
+                                <p class="card-text">Our personal trainers will help you achieve your fitness goals with
+                                    customized training plans and one-on-one attention.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card shadow">
+                            <img src="https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                                class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Group Classes</h5>
+                                <p class="card-text">Join our group classes for a fun and challenging workout experience
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card shadow">
+                            <img src="https://images.unsplash.com/photo-1518611012118-696072aa579a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjh8fGd5bXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+                                class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Nutrition Counseling</h5>
+                                <p class="card-text">Our nutrition experts will help you develop a healthy eating plan
+                                    to
+                                    support your fitness goals.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- About Us Section -->
+        <section class="bg-light py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="https://images.unsplash.com/photo-1599058917212-d750089bc07e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80"
+                            class="img-fluid">
+                    </div>
+                    <div class="col-md-6">
+                        <h2>About Us</h2>
+                        <p>We are a full-service gym offering a range of fitness services to help you achieve your
+                            goals.
+                            Whether you're looking to lose weight, build muscle, or improve your overall health, we have
+                            the
+                            resources and expertise to help you succeed. Our team of certified personal trainers and
+                            nutrition experts are dedicated to helping you reach your full potential.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pricing Section -->
+        <section class="py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card shadow">
+                            <div class="card-body">
+                                <h5 class="card-title">Basic</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">$20/month</h6>
+                                <p class="card-text">Access to cardio and weight machines</p>
+                                <a href="#" class="btn btn-primary">Sign Up</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card shadow">
+                            <div class="card-body">
+                                <h5 class="card-title">Premium</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">$50/month</h6>
+                                <p class="card-text">Access to cardio and weight machines, group classes, and personal
+                                    training</p>
+                                <a href="#" class="btn btn-primary">Sign Up</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card shadow">
+                            <div class="card-body">
+                                <h5 class="card-title">Elite</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">$100/month</h6>
+                                <p class="card-text">Access to cardio and weight machines, group classes, personal
+                                    training,
+                                    and nutrition counseling</p>
+                                <a href="#" class="btn btn-primary">Sign Up</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <%- include('footer.ejs') %>
+
+            <!-- Bootstrap and Font Awesome Scripts -->
+            <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>

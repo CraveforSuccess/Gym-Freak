@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Gym Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <%- include('navbar.ejs') %>
+
+        <!-- main content -->
+        <div class="container d-flex justify-content-around flex-wrap">
+            <div class="card mt-5 mb-5" style="width: 18rem;">
+                <img class="card-img-top p-3"
+                    src="https://images.unsplash.com/photo-1566351505392-bb6c6e0c9823?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+                    alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Beginner Plans</h5>
+
+                    <p class="card-text">"Transform Your Body with Our Beginner Fitness Plan: Get Fit and Confident
+                        Today!"</p>
+                    <a href="/begin" class="btn btn-primary">View Full Plan</a>
+                </div>
+            </div>
+            <div class="card mt-5 mb-5" style="width: 18rem;">
+                <img class="card-img-top p-3"
+                    src="https://images.unsplash.com/photo-1606328500899-38351f33df8a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjJ8fGNydW5jaGVzJTIwZXhlcmNpc2V8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+                    alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Intermediate Plan</h5>
+                    <p class="card-text">"Take Your Fitness to the Next Level with Our Intermediate Plan: Build Strength
+                        and Sculpt Your Ideal Body!"</p>
+                    <a href="/intermediate" class="btn btn-primary">View Full Plan</a>
+                </div>
+            </div>
+            <div class="card mt-5 mb-5" style="width: 18rem;">
+                <img class="card-img-top p-3"
+                    src="https://images.unsplash.com/photo-1584466977773-e625c37cdd50?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDh8fHdlaWdodCUyMGxpZnRpbmd8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+                    alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Advance Plan</h5>
+                    <p class="card-text">"Unleash Your Inner Athlete with Our Advanced Fitness Plan: Push Your Limits
+                        and Achieve Peak Performance!"</p>
+                    <a href="/advance" class="btn btn-primary">View Full Plan</a>
+                </div>
+            </div>
+        </div>
+
+        <%- include('footer.ejs') %>
+
+            <!-- Bootstrap and Font Awesome Scripts -->
+            <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+                integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+                crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+                integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+                crossorigin="anonymous"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+                integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+                crossorigin="anonymous"></script>
+</body>
+
+</html>
